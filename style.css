@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #101C32;
+}
+
+.navbar {
+    background-color: #101C32;
+    border-bottom: 2px solid #C8A45D;
+}
+
+.navbar-brand {
+    color: #C8A45D !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar .nav-link {
+    color: #F5F3ED !important;
+}
+
+.hero {
+    min-height: 550px;
+    background-image:
+        linear-gradient(
+            rgba(16, 28, 50, 0.65),
+            rgba(16, 28, 50, 0.80)
+        ),
+        url("../images/city.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #F5F3ED;
+}
+
+.hero h1 {
+    color: #C8A45D;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+section:not(.hero) {
+    padding: 70px 0;
+}
+
+section h2 {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.section-about {
+    background-color: #F5F3ED;
+}
+
+.section-features {
+    background-color: #FFFFFF;
+}
+
+.section-features .col-md-4 {
+    padding: 25px;
+}
+
+.section-gallery {
+    background-color: #F5F3ED;
+}
+
+.section-contact {
+    background-color: #101C32;
+    color: #F5F3ED;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #0B1424;
+    color: #F5F3ED;
+}
+
+.footer p {
+    margin: 0;
+}
